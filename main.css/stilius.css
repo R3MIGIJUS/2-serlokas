@@ -1,0 +1,45 @@
+body {
+    background-color: #ffffff;
+}
+
+main {
+display: inline-block;
+margin-top: 0%;
+margin-left: 15%;
+width: 70%;
+margin-left: calc((100% - 600px))/2;
+}
+
+main > img {
+display: inline-block;
+margin-top: 20%;
+float: left;
+margin-left: 10%;
+width: 350px;
+height: 220px;
+
+}
+
+main > div {
+text-align: center;
+margin-left: 50%;
+margin-top: 20%;
+}
+
+div > h1 {
+font-size: 80px;
+margin: 0%;
+}
+
+div > p {
+    text-align: center;
+    font-style: italic;
+}
+
+div > a {
+    background-color: #c2c2c2;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
